@@ -6,12 +6,10 @@ import java.util.Scanner;
 
 public class ReadFromFile {
 
-    File file = new File("C:\\Users\\GA1\\code\\BeleiveAcheiveRecieve\\Habitual\\PaulBranches\\src\\SaveData");
-
-    public void readListsFromFile() {
+    public void readListsFromFile(File HabitSavedTxt) {
         Scanner sc;
         try {
-            sc = new Scanner(file);
+            sc = new Scanner(HabitSavedTxt);
             while (sc.hasNextLine()) {
                 System.out.println(sc.nextLine());
             }
