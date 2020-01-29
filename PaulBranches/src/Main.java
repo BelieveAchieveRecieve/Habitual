@@ -8,18 +8,16 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        ReadFromFile reader = new ReadFromFile();
-        WriteToFile writer = new WriteToFile();
-        reader.readListsFromFile(WriteToFile.file);
 
         HabitFactory maker = new HabitFactory();
         HabitList listOne = new HabitList();
+        FileFunctions.saveFileCreation(listOne.toString());
 
         System.out.println("What habits would you like to track? Enter 'end' to continue.");
         listOne.generateNewList(maker);
 
         for (Habit item : maker.getHabitList()) {
-            writer.saveListsToFile(item.toString());
+            FileFunctions.addLists(item.toString());
         }
 
 
@@ -65,7 +63,7 @@ public class Main {
         Scanner e = new Scanner(System.in);
         String option = e.nextLine();
         if (option.equals("y")) {
-            writer.clearSave();
+            FileFunctions.clearSave();
         }
     }
 }
