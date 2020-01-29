@@ -1,12 +1,16 @@
 import java.util.Scanner;
+import java.io.*;
+import java.lang.*;
+import java.io.Writer;
+
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         ReadFromFile reader = new ReadFromFile();
         WriteToFile writer = new WriteToFile();
-        reader.readListsFromFile();
+        reader.readListsFromFile(WriteToFile.file);
 
         HabitFactory maker = new HabitFactory();
         HabitList listOne = new HabitList();
@@ -14,10 +18,9 @@ public class Main {
         System.out.println("What habits would you like to track? Enter 'end' to continue.");
         listOne.generateNewList(maker);
 
-        for(Habit item : maker.getHabitList()){
+        for (Habit item : maker.getHabitList()) {
             writer.saveListsToFile(item.toString());
         }
-
 
 
         for (Habit item : maker.getHabitList()) {
@@ -61,7 +64,9 @@ public class Main {
         System.out.println("would you like to clear the save? y/n");
         Scanner e = new Scanner(System.in);
         String option = e.nextLine();
-        if (option.equals("y")){
+        if (option.equals("y")) {
             writer.clearSave();
         }
+    }
+}
 
