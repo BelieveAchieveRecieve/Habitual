@@ -27,8 +27,8 @@ public class Main {
 
         System.out.println("would you like to clear the save? y/n");
 
-        String option = HabitualUtilities.scanner();
-        if (option.equals("y")) {
+        Scanner option = HabitualUtilities.scanner();
+        if (option.toString().equals("y")) {
             FileFunctions.clearSave();
             
         }

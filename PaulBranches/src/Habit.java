@@ -41,8 +41,8 @@ public class Habit {
             System.out.println(item.getHabitToTrack() + " What day to check off?");
             boolean flag = false;
             while (flag == false) {
-                String day = HabitualUtilities.scanner();
-                switch (day.toLowerCase()) {
+                Scanner day = HabitualUtilities.scanner();
+                switch (day.toString().toLowerCase()) {
                     case "monday":
                         item.setWeekTrackerIndex(true, 0);
                         break;
