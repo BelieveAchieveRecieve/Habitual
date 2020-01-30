@@ -7,7 +7,8 @@ public class FileFunctions {
     static File file = new File("resources/com/achievebelieverecieve/SaveData");
 
     //this function will validate your save file, to make sure one is in place
-    public static void saveFileCreation(String lists) throws IOException {
+    public static void saveFileCreation() throws IOException {
+
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
 
         try {
@@ -48,7 +49,6 @@ public class FileFunctions {
     }
 
 
-
     //this function will read whatever is stored in your save file
     public void readLists(File HabitSavedTxt) {
         Scanner sc;
@@ -56,6 +56,7 @@ public class FileFunctions {
             sc = new Scanner(HabitSavedTxt);
             while (sc.hasNextLine()) {
                 System.out.println(sc.nextLine());
+                return;
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
