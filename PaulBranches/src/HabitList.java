@@ -6,8 +6,7 @@ public class HabitList {
 
         boolean flag = false;
         while (flag==false) {
-            Scanner readLine = new Scanner(System.in);
-            String userInput = readLine.nextLine();
+            String userInput = HabitualUtilities.scanner();
             if (userInput.equals("end")){
                 flag = true;
             } else {

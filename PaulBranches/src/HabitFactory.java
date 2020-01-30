@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class HabitFactory {
 
-    private ArrayList<Habit> habitList = new ArrayList<>();
+    private static ArrayList<Habit> habitList = new ArrayList<>();
 
 
     public HabitFactory() {
@@ -16,7 +16,7 @@ public class HabitFactory {
 
     }
 
-    public ArrayList<Habit> getHabitList() {
+    public static ArrayList<Habit> getHabitList() {
         return habitList;
     }
 }

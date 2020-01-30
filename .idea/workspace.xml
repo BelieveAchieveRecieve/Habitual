@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e66d103-acf8-4f06-8ed1-53d3c9a17d8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PaulBranches/src/FileFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaulBranches/src/HabitualUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaulBranches/src/MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaulBranches/src/FileFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/FileFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaulBranches/src/Habit.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/Habit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaulBranches/src/HabitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/HabitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaulBranches/src/HabitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/HabitList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaulBranches/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaulBranches/src/ReadFromFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaulBranches/src/WriteToFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/Habit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/Habit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/HabitFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/HabitFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Habitual1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/ReadFromFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/WriteToFile.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Habitual1/com/achievebelieverecieve/SaveData" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/com/achievebelieverecieve/SaveData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/com/achievebelieverecieve/SaveData" beforeDir="false" afterPath="$PROJECT_DIR$/resources/com/achievebelieverecieve/SaveData" afterDir="false" />
     </list>
@@ -100,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580126747603</updated>
-      <workItem from="1580126755036" duration="18099000" />
+      <workItem from="1580126755036" duration="19942000" />
+      <workItem from="1580377151139" duration="3441000" />
     </task>
     <task id="LOCAL-00001" summary="Hardcoded the file save location to within the Java project">
       <created>1580293120807</created>
@@ -116,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580293405883</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactored methods under the class FileFunctions">
+      <created>1580305261433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580305261433</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hardcoded the file save location to within the Java project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hardcoded the file save location to within the Java project" />
+    <MESSAGE value="Refactored methods under the class FileFunctions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored methods under the class FileFunctions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580140329936">
@@ -143,26 +155,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580302767948" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1580293405105">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1580305260833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580293405105" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580305180124">
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580305260833" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580380262769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580305180124" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580305180124">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580380262769" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580380262769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580305180124" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580305180124">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580380262769" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580380262768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580305180124" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580305180124">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580380262768" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580380262769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580305180124" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580380262769" />
     <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1580140199134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580127027846" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580293595289">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580305303460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580293595289" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580305303460" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580293926725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
