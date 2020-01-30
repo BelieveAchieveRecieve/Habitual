@@ -13,6 +13,8 @@ public class Main {
 
         HabitFactory maker = new HabitFactory();
         HabitList listOne = new HabitList();
+        Scanner scan = HabitualUtilities.scanner();
+
         FileFunctions.saveFileCreation();
 
         System.out.println("What habits would you like to track? Enter 'end' to continue.");
@@ -29,8 +31,8 @@ public class Main {
 
         System.out.println("would you like to clear the save? y/n");
 
-        Scanner option = HabitualUtilities.scanner();
-        if (option.toString().equals("y")) {
+        String option = scan.nextLine();
+        if (option.equals("y")) {
             FileFunctions.clearSave();
             
         }

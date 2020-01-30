@@ -30,7 +30,7 @@ public class FileFunctions {
     //This function allows you to add items to the save file
     public static void addLists(String lists) throws IOException {
 
-        BufferedWriter writer = HabitualUtilities.writer();
+        BufferedWriter writer = HabitualUtilities.writer(file);
         writer.append(" ");
         writer.append(lists);
         writer.close();
@@ -41,7 +41,7 @@ public class FileFunctions {
     public static void clearSave() {
         BufferedWriter writer;
         try {
-            writer = HabitualUtilities.writer();
+            writer = HabitualUtilities.writer(file);
             writer.write("No saves");
         } catch (IOException e) {
             e.printStackTrace();

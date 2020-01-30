@@ -16,3 +16,18 @@
  ---------------------------------
 |nu|
 |[false, false, false, false, false, false, false]|
+ ---------------------------------
+|fly|
+|[false, false, false, false, false, false, false]|
+ ---------------------------------
+|finish|
+|[false, false, false, false, false, false, false]|
+ ---------------------------------
+|fly|
+|[false, false, false, false, false, false, false]|
+ ---------------------------------
+|finish|
+|[false, false, false, false, false, false, false]|
+ ---------------------------------
+|fly|
+|[false, false, false, false, false, false, false]|
