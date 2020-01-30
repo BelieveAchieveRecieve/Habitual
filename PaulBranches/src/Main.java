@@ -6,6 +6,8 @@ public class Main {
 
     public static boolean appRunning = true;
 
+    //while appruning is false close files todo
+
 
     public static void main(String[] args) throws IOException {
 

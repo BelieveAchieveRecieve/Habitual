@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class FileFunctions {
 
     //This is where the saved file exists
-    static File file = new File("resources/com/achievebelieverecieve/SaveData");
+    public static File file = new File("resources/com/achievebelieverecieve/SaveData");
 
     //this function will validate your save file, to make sure one is in place
     public static void saveFileCreation() throws IOException {
@@ -30,7 +30,7 @@ public class FileFunctions {
     //This function allows you to add items to the save file
     public static void addLists(String lists) throws IOException {
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
+        BufferedWriter writer = HabitualUtilities.writer();
         writer.append(" ");
         writer.append(lists);
         writer.close();
@@ -41,7 +41,7 @@ public class FileFunctions {
     public static void clearSave() {
         BufferedWriter writer;
         try {
-            writer = new BufferedWriter(new FileWriter(file));
+            writer = HabitualUtilities.writer();
             writer.write("No saves");
         } catch (IOException e) {
             e.printStackTrace();

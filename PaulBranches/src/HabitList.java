@@ -6,11 +6,12 @@ public class HabitList {
 
         boolean flag = false;
         while (flag==false) {
-            Scanner userInput = HabitualUtilities.scanner();
+            Scanner scan = HabitualUtilities.scanner();
+            String userInput = scan.nextLine();
             if (userInput.equals("end")){
                 flag = true;
             } else {
-                maker.generateHabit(userInput.toString());
+                maker.generateHabit(userInput);
             }
         }
 

@@ -4,6 +4,10 @@ public class MainMenu {
 
         while (Main.appRunning){
 
+            /*view lists
+            clear lists
+             */
+
 
         }
 
