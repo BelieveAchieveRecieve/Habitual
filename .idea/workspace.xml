@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e66d103-acf8-4f06-8ed1-53d3c9a17d8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PaulBranches/src/HabitualUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaulBranches/src/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaulBranches/src/FileFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/FileFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaulBranches/src/Habit.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/Habit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaulBranches/src/HabitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/HabitFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaulBranches/src/HabitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/HabitList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaulBranches/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/Habit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/Habit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/HabitFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/HabitFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/com/achievebelieverecieve/SaveData" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/com/achievebelieverecieve/SaveData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/com/achievebelieverecieve/SaveData" beforeDir="false" afterPath="$PROJECT_DIR$/resources/com/achievebelieverecieve/SaveData" afterDir="false" />
-    </list>
+    <list default="true" id="4e66d103-acf8-4f06-8ed1-53d3c9a17d8c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580126747603</updated>
       <workItem from="1580126755036" duration="19942000" />
-      <workItem from="1580377151139" duration="3441000" />
+      <workItem from="1580377151139" duration="4008000" />
     </task>
     <task id="LOCAL-00001" summary="Hardcoded the file save location to within the Java project">
       <created>1580293120807</created>
@@ -127,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580305261433</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add HabitualUtilities and cleaned up technical excess">
+      <created>1580381099031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580381099031</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hardcoded the file save location to within the Java project" />
     <MESSAGE value="Refactored methods under the class FileFunctions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored methods under the class FileFunctions" />
+    <MESSAGE value="Add HabitualUtilities and cleaned up technical excess" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HabitualUtilities and cleaned up technical excess" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580140329936">
@@ -155,10 +149,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580302767948" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1580305260833">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1580381098138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580305260833" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580381098138" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580380262769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
