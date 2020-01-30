@@ -9,7 +9,7 @@ public class FileFunctions {
     //this function will validate your save file, to make sure one is in place
     public static void saveFileCreation() throws IOException {
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
+        BufferedWriter writer = HabitualUtilities.writer(file);
 
         try {
             if (!file.exists()) {
@@ -30,7 +30,7 @@ public class FileFunctions {
     //This function allows you to add items to the save file
     public static void addLists(String lists) throws IOException {
 
-        BufferedWriter writer = HabitualUtilities.writer(file);
+        BufferedWriter writer = HabitualUtilities.writerappender(file);
         writer.append(" ");
         writer.append(lists);
         writer.close();
@@ -43,6 +43,7 @@ public class FileFunctions {
         try {
             writer = HabitualUtilities.writer(file);
             writer.write("No saves");
+            writer.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

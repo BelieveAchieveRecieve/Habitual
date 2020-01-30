@@ -19,6 +19,12 @@ public class HabitualUtilities {
 
     public static BufferedWriter writer(File file) throws IOException {
 
+        BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+        return writer;
+    }
+
+    public static BufferedWriter writerappender(File file) throws IOException {
+
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
         return writer;
     }
