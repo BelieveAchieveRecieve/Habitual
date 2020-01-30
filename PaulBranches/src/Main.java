@@ -16,6 +16,7 @@ public class Main {
         Scanner scan = HabitualUtilities.scanner();
 
         FileFunctions.saveFileCreation();
+        FileFunctions.readLists(FileFunctions.file);
 
         System.out.println("What habits would you like to track? Enter 'end' to continue.");
         listOne.generateNewList(maker);

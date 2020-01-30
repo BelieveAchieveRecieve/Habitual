@@ -12,6 +12,11 @@ public class HabitualUtilities {
         return scan;
     }
 
+    public static Scanner scanner(File file) throws IOException {
+        final Scanner scan = new Scanner(file);
+        return scan;
+    }
+
     public static BufferedWriter writer(File file) throws IOException {
 
         BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));

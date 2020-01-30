@@ -50,18 +50,15 @@ public class FileFunctions {
 
 
     //this function will read whatever is stored in your save file
-    public void readLists(File HabitSavedTxt) {
-        Scanner sc;
-        try {
-            sc = new Scanner(HabitSavedTxt);
-            while (sc.hasNextLine()) {
-                System.out.println(sc.nextLine());
+    public static void readLists(File HabitSavedTxt) throws IOException {
+            Scanner scan = HabitualUtilities.scanner(HabitSavedTxt);
+
+            while (scan.hasNextLine()) {
+                System.out.println(scan.nextLine());
                 return;
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         }
 
     }
-}
+
 

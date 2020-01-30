@@ -6,8 +6,6 @@
       <change beforePath="$PROJECT_DIR$/PaulBranches/src/FileFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/FileFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaulBranches/src/HabitualUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/HabitualUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaulBranches/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaulBranches/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/Habit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/Habit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Habitual1/HabitList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/HabitList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Habitual1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Habitual1/com/achievebelieverecieve/SaveData" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Habitual1/com/achievebelieverecieve/SaveData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/com/achievebelieverecieve/SaveData" beforeDir="false" afterPath="$PROJECT_DIR$/resources/com/achievebelieverecieve/SaveData" afterDir="false" />
@@ -89,7 +87,7 @@
       <workItem from="1580124587156" duration="2682000" />
       <workItem from="1580381162971" duration="539000" />
       <workItem from="1580381819107" duration="695000" />
-      <workItem from="1580382515559" duration="2347000" />
+      <workItem from="1580382515559" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="ver 2">
       <created>1580124872217</created>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580384616765</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed file reader to argument">
+      <created>1580384904597</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580384904597</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +141,8 @@
     <MESSAGE value="ver 2" />
     <MESSAGE value="new branch" />
     <MESSAGE value="updated buffered reader in utility&#10;updated scanner object to read next line" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated buffered reader in utility&#10;updated scanner object to read next line" />
+    <MESSAGE value="changed file reader to argument" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed file reader to argument" />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="179" key="#Main" timestamp="1580383831093">
@@ -147,30 +153,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580127091370" />
-    <state x="582" y="115" key="CommitChangelistDialog2" timestamp="1580384616217">
+    <state x="582" y="115" key="CommitChangelistDialog2" timestamp="1580384904035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580384616217" />
+    <state x="582" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580384904035" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580381942479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580381942479" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580384876665">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580385364710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580384876665" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580384876664">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580385364710" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580385364709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580384876664" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580384876664">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580385364709" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580385364709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580384876664" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580384876664">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580385364709" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580385364709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580384876664" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580385364709" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580384516114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
