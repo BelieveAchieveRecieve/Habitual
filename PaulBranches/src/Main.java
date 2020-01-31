@@ -6,12 +6,17 @@ public class Main {
 
     public static boolean appRunning = true;
 
+    //while appruning is false close files todo
+
 
     public static void main(String[] args) throws IOException {
 
         HabitFactory maker = new HabitFactory();
         HabitList listOne = new HabitList();
+        Scanner scan = HabitualUtilities.scanner();
+
         FileFunctions.saveFileCreation();
+        FileFunctions.readLists(FileFunctions.file);
 
         System.out.println("What habits would you like to track? Enter 'end' to continue.");
         listOne.generateNewList(maker);
@@ -27,8 +32,8 @@ public class Main {
 
         System.out.println("would you like to clear the save? y/n");
 
-        Scanner option = HabitualUtilities.scanner();
-        if (option.toString().equals("y")) {
+        String option = scan.nextLine();
+        if (option.equals("y")) {
             FileFunctions.clearSave();
             
         }

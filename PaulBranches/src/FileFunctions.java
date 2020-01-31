@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class FileFunctions {
 
     //This is where the saved file exists
-    static File file = new File("resources/com/achievebelieverecieve/SaveData");
+    public static File file = new File("resources/com/achievebelieverecieve/SaveData");
 
     //this function will validate your save file, to make sure one is in place
     public static void saveFileCreation() throws IOException {
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
+        BufferedWriter writer = HabitualUtilities.writer(file);
 
         try {
             if (!file.exists()) {
@@ -30,7 +30,7 @@ public class FileFunctions {
     //This function allows you to add items to the save file
     public static void addLists(String lists) throws IOException {
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
+        BufferedWriter writer = HabitualUtilities.writerappender(file);
         writer.append(" ");
         writer.append(lists);
         writer.close();
@@ -41,8 +41,9 @@ public class FileFunctions {
     public static void clearSave() {
         BufferedWriter writer;
         try {
-            writer = new BufferedWriter(new FileWriter(file));
+            writer = HabitualUtilities.writer(file);
             writer.write("No saves");
+            writer.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -50,18 +51,15 @@ public class FileFunctions {
 
 
     //this function will read whatever is stored in your save file
-    public void readLists(File HabitSavedTxt) {
-        Scanner sc;
-        try {
-            sc = new Scanner(HabitSavedTxt);
-            while (sc.hasNextLine()) {
-                System.out.println(sc.nextLine());
+    public static void readLists(File HabitSavedTxt) throws IOException {
+            Scanner scan = HabitualUtilities.scanner(HabitSavedTxt);
+
+            while (scan.hasNextLine()) {
+                System.out.println(scan.nextLine());
                 return;
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         }
 
     }
-}
+
 
